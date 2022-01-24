@@ -19,6 +19,8 @@ theme = "hugo-coder"
   favicon_16 = "favicon-16x16.png"
   touchIcon = "apple-touch-icon.png"
 
+  publishDir = "docs"
+
 # social links
 [[params.social]]
   name = "Linkedin"
