@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Laurent Lourenco</title>
-    <link>https://lourenco.pro/categories/</link>
+    <link>https://mikemaggire.github.io/lourenco.pro/categories/</link>
     <description>Recent content in Categories on Laurent Lourenco</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://lourenco.pro/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://mikemaggire.github.io/lourenco.pro/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

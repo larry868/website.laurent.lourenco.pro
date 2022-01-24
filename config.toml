@@ -1,4 +1,5 @@
-baseURL = 'https://lourenco.pro/'
+# baseURL = 'https://lourenco.pro/'
+baseURL = 'https://mikemaggire.github.io/lourenco.pro/'
 languageCode = 'en-us'
 title = 'Laurent Lourenco'
 theme = "hugo-coder"
