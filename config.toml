@@ -9,7 +9,7 @@ publishDir = "docs"
   author = "Laurent Lourenco"
   info = "Blockchain Aficionado"
   description = "Laurent Lourenco's online index"
-  keywords = "identity"
+  keywords = "identity, blockchain, self-sovereignity"
   avatarurl = "images/llcartoon1.png"
   
   enableTwemoji = true
