@@ -42,5 +42,5 @@ publishDir = "docs"
     name = "eMail"
     icon = "fa fa-envelope fa-2x"
     weight = 4
-    url = "mailto://laurent.lourenco@protonmail.com"
+    url = "mailto://laurent.lourenco@pm.me"
 
