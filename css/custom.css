@@ -1,0 +1,9 @@
+.avatar {
+    border-radius: 5%;
+    width: 50%;
+    max-width: 200px;
+}
+
+.inside {
+    margin-bottom: 50px;
+}

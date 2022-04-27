@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Laurent Lourenco</title>
+    <link rel="canonical" href="{{.Site.BaseURL}}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--page-description-->
+    <meta name="author" content="Laurent Lourenco">
+    <meta name="description" content="Laurent Lourenco&#39;s online index">
+    <meta name="keywords" content="web3 advisor, identity, blockchain, self-sovereignity">
+
+    <!--page-tags-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Laurent Lourenco" />
+    <meta name="twitter:description" content="Laurent Lourenco&#39;s online index" />
+    <meta property="og:title" content="Laurent Lourenco" />
+    <meta property="og:description" content="Laurent Lourenco&#39;s online index" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{.Site.BaseURL}}" />
+
+    <!--css & fonts-->
+    <!--link rel="preload" href="fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+</head>
+
+<body class="bg-light">
+<main class="inside">
+    {{.Body}}
+</main>
+<embed src=".components/footer.html" type="text/html" />
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
