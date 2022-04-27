@@ -6,5 +6,8 @@ site:
   baseurl: https://laurent.lourenco.pro
   language: en
 zas:
-  deploy: .zas/deploy
+  deploy: docs
   layout: .zas/layout.html
+ignore:
+  - readme.md
+  - docs
