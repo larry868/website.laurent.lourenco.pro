@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>Laurent Lourenco</title>
-    <link rel="canonical" href="{{.Site.BaseURL}}">
+    <title>{{ title }}</title>
+    <link rel="canonical" href="{{url}}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--page-description-->
     <meta name="author" content="Laurent Lourenco">
-    <meta name="description" content="Laurent Lourenco&#39;s online index">
+    <meta name="description" content="{{description}}">
     <meta name="keywords" content="web3 advisor, identity, blockchain, self-sovereignity">
 
     <!--page-tags-->
@@ -19,7 +19,7 @@
     <meta property="og:title" content="Laurent Lourenco" />
     <meta property="og:description" content="Laurent Lourenco&#39;s online index" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{.Site.BaseURL}}" />
+    <meta property="og:url" content="{{url}}" />
 
     <!--css & fonts-->
     <!--link rel="preload" href="fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin-->
@@ -35,10 +35,9 @@
 </head>
 
 <body class="bg-light">
-<main class="inside">
-    {{.Body}}
-</main>
-<embed src=".components/footer.html" type="text/html" />
+<main class="inside">{{content}}</main>
+
+{{footer}}
 
 <script src="js/bootstrap.min.js"></script>
 </body>
