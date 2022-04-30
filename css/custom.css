@@ -1,9 +1,63 @@
 .avatar {
     border-radius: 5%;
-    width: 50%;
+    width: 33%;
     max-width: 200px;
 }
 
 .inside {
     margin-bottom: 50px;
 }
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+.iconbox {
+    min-width: 28px;
+}
+
+.icon {
+    width: 100%;
+    min-width: 16px;
+    max-width: 32px;
+    height: auto;
+
+}
+.underlinedlink {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    h1, .h1 {
+        font-size: calc(1.2rem + 0.3vw);
+    }
+    h2, .h2 {
+        font-size: calc(1.15rem + 0.2vw);
+    }
+    h3, .h3 {
+        font-size: calc(1.13rem + 0.1vw);
+    }
+    .lead {
+        font-size: 1.13rem;
+    }
+}
+
+@media (max-width: 385px) {
+    h1, .h1 {
+        font-size: calc(1.1rem + 0.1vw);
+    }
+    h2, .h2 {
+        font-size: calc(1.1rem + 0.1vw);
+    }
+    h3, .h3 {
+        font-size: calc(1rem + 0.1vw);
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    html {
+        font-size: 14px;
+    }
+}
+
+  

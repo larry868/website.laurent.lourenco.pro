@@ -15,3 +15,4 @@ use the following settings:
     "liveServer.settings.root": "docs/",
 ```
 
+
