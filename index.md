@@ -30,10 +30,7 @@ url: https://laurent.lourenco.pro
     <a class="nav-link active" id="mytabs-tab1" data-bs-toggle="tab" href="#pane-self" aria-selected="true" aria-controls="mytabs-tab-self" role="tab">Self</a>
 </li>
 <li class="nav-item" role="presentation">
-    <a class="nav-link" id="mytabs-tab2" data-bs-toggle="tab" href="#pane-trust" aria-selected="false" aria-controls="mytabs-tab-trust" role="tab">Trust</a>
-</li>
-<li class="nav-item" role="presentation">
-    <a class="nav-link" id="mytabs-tab3" data-bs-toggle="tab" href="#pane-share" aria-selected="false" aria-controls="mytabs-tab-share" role="tab">Share</a>
+    <a class="nav-link" id="mytabs-tab2" data-bs-toggle="tab" href="#pane-link" aria-selected="false" aria-controls="mytabs-tab-trust" role="tab">Links</a>
 </li>
 </ul>
 <!--tabs-content-->
@@ -55,8 +52,8 @@ url: https://laurent.lourenco.pro
 {{ sections/pubkeys }}
 </div>
 </div>
-<!--trust-->
-<div class="tab-pane fade" id="pane-trust" role="tabpanel" aria-labelledby="mytabs-tab2">
+<!--links-->
+<div class="tab-pane fade" id="pane-link" role="tabpanel" aria-labelledby="mytabs-tab2">
 <!--membership-->
 <div class="container bg-light text-dark px-0">
 <h3 class="fw-light px-1 py-0 text-center">Memberships</h3>
@@ -72,18 +69,10 @@ url: https://laurent.lourenco.pro
 <h3 class="fw-light px-1 py-0 text-center">Partnerships</h3>
 {{ sections/partnerships }}
 </div>
-</div>
-<!--share-->
-<div class="tab-pane fade" id="pane-share" role="tabpanel" aria-labelledby="mytabs-tab3">
 <!--newsletters-->
 <div class="container bg-light text-dark px-0">
 <h3 class="fw-light px-1 py-0 text-center">Newsletters</h3>
 {{ sections/newsletters }}
-</div>
-<!--Usefull links-->
-<div class="container bg-light text-dark px-0">
-<h3 class="fw-light px-1 py-0 text-center">Usefull links</h3>
-{{ sections/usefulllinks }}
 </div>
 </div>
 </div>

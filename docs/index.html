@@ -3,6 +3,7 @@
 
 <head>
     <title>Laurent Lourenco 2</title>
+    <meta name="title" content="Laurent Lourenco 2">
     <link rel="canonical" href="https://laurent.lourenco.pro">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,15 +24,16 @@
 
     <!--css & fonts-->
     <!--link rel="preload" href="fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/bootstrap-icons.css" rel="stylesheet" type="text/css">
+    <link href="/css/custom.css" rel="stylesheet" type="text/css">
 
     <!--favicon-->
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.ico">
 </head>
 
 <body class="bg-light">
@@ -63,10 +65,7 @@
     <a class="nav-link active" id="mytabs-tab1" data-bs-toggle="tab" href="#pane-self" aria-selected="true" aria-controls="mytabs-tab-self" role="tab">Self</a>
 </li>
 <li class="nav-item" role="presentation">
-    <a class="nav-link" id="mytabs-tab2" data-bs-toggle="tab" href="#pane-trust" aria-selected="false" aria-controls="mytabs-tab-trust" role="tab">Trust</a>
-</li>
-<li class="nav-item" role="presentation">
-    <a class="nav-link" id="mytabs-tab3" data-bs-toggle="tab" href="#pane-share" aria-selected="false" aria-controls="mytabs-tab-share" role="tab">Share</a>
+    <a class="nav-link" id="mytabs-tab2" data-bs-toggle="tab" href="#pane-link" aria-selected="false" aria-controls="mytabs-tab-trust" role="tab">Links</a>
 </li>
 </ul>
 <!--tabs-content-->
@@ -198,7 +197,7 @@
         </a>
     </div>
     <div class="p-1">
-        <a href="#" aria-label="blog" class="list-group-item list-group-item-action p-0">
+        <a href="https://blog.lourenco.pro" aria-label="blog" class="list-group-item list-group-item-action p-0">
             <div class="row m-0">
                 <div class="col-1 py-2 ps-2 pe-1 text-center iconbox">
                     <img src="img/bi/newspaper.svg" alt="blog" class="icon" role="img">
@@ -254,8 +253,8 @@
 
 <p></div>
 </div>
-<!--trust-->
-<div class="tab-pane fade" id="pane-trust" role="tabpanel" aria-labelledby="mytabs-tab2">
+<!--links-->
+<div class="tab-pane fade" id="pane-link" role="tabpanel" aria-labelledby="mytabs-tab2">
 <!--membership-->
 <div class="container bg-light text-dark px-0">
 <h3 class="fw-light px-1 py-0 text-center">Memberships</h3>
@@ -337,9 +336,6 @@
 </div></p>
 
 <p></div>
-</div>
-<!--share-->
-<div class="tab-pane fade" id="pane-share" role="tabpanel" aria-labelledby="mytabs-tab3">
 <!--newsletters-->
 <div class="container bg-light text-dark px-0">
 <h3 class="fw-light px-1 py-0 text-center">Newsletters</h3>
@@ -362,30 +358,6 @@
     </div>
 </div>
 </div>
-<!--Usefull links-->
-<div class="container bg-light text-dark px-0">
-<h3 class="fw-light px-1 py-0 text-center">Usefull links</h3>
-<div class="list-group text-start">
-    <div class="p-1">
-        <a href="#" aria-label="" class="list-group-item list-group-item-action p-0">
-            <div class="row m-0">
-                <div class="col-1 py-2 ps-2 pe-1 text-center iconbox">
-                    <img src="img/bi/link-45deg.svg" alt="link" class="icon" role="img">
-                </div>
-                <div class="col py-1 ps-1 pe-2">
-                    <div class="d-flex w-100 justify-content-between">
-                        <small class="underlinedlink">link</small>
-                        <small class=".d-none .d-sm-block .d-md-none overflow-hidden text-nowrap">label</small>
-                    </div>
-                    <p class="my-1 fw-bold">highlight</p>
-                    <p class="my-1">reference</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div></p>
-
-<p></div>
 </div>
 </div></p>
 </main>
