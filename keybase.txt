@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/laurentlourenco
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://laurent.lourenco.pro
+  * I am laurentlourenco (https://keybase.io/laurentlourenco) on keybase.
+  * I have a public key ASDZORyKajBKZR76b8v-Fbtk22djj9bWsEQ-P9L8zOnxJgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d9391c8a6a304a651efa6fcbfe15bb64db67638fd6d6b0443e3fd2fccce9f1260a",
+      "host": "keybase.io",
+      "kid": "0120d9391c8a6a304a651efa6fcbfe15bb64db67638fd6d6b0443e3fd2fccce9f1260a",
+      "uid": "65abe59f85e13cd1a7ff2cd56df18619",
+      "username": "laurentlourenco"
+    },
+    "merkle_root": {
+      "ctime": 1728194677,
+      "hash": "3745d5f43ae4f2bef374e86ad94789b25ef657c61007cdca3b3f69cc8b87c5eb3e34de41badd3266de831acc06a7818c2ad1887c5546c9242568a0ef27e644c2",
+      "hash_meta": "f2ea6749aecef328ca417e18063eef8fe6db63ad66266ab60a45abf885b98e52",
+      "seqno": 26178071
+    },
+    "service": {
+      "entropy": "QvWamWpzKINjfiajJW1zaHAT",
+      "hostname": "laurent.lourenco.pro",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1728194965,
+  "expire_in": 504576000,
+  "prev": "0cec989ec24fe1b4e676cba271bca48eef97f657fb81f818bb6861aeb8eb9d5c",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2TkcimowSmUe+m/L/hW7ZNtnY4/W1rBEPj/S/Mzp8SYKp3BheWxvYWTESpcCDcQgDOyYnsJP4bTmdsuicbykju+X9lf7gfgYu2hhrrjrnVzEIM5ENOwFIz0MaRRDfa0cNcG48sdnJ55DHbVjJo6AQW+QAgHCo3NpZ8RAk3hH2ig80kv8yZYtajJPNUHWFcGww0d9rs4J2xp8W/tPXmcr679aJ5qlfSxAzz48QmHpcwEwSgfxc2GFKwS5BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPeNUCKCl0Jk4+GRFA5im0hveisbGunegm68xFpo8FOZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/laurentlourenco
+
+==================================================================
