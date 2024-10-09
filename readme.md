@@ -1,6 +1,6 @@
 # Sources of laurent.lourenco.pro website
 
-Static Website generated in go with [zazzy](https://github.com/lolorenzo777/zazzy)
+Static Website generated in go with [zazzy](https://github.com/larry868/zazzy)
 
 ## rebuild & publish
 
