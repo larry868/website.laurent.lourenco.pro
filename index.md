@@ -18,6 +18,7 @@ url: https://laurent.lourenco.pro
             <span class="badge rounded-pill border border-dark bg-white text-dark">Blockchain</span>
             <span class="badge rounded-pill border border-dark bg-white text-dark">Sovereign Identity</span>
             <span class="badge rounded-pill border border-dark bg-white text-dark">Go</span>
+            <span class="badge rounded-pill border border-dark bg-white text-dark">APIs</span>
             <span class="badge rounded-pill border border-dark bg-white text-dark">Supply Chain</span>
         </div>
     </div>
